@@ -5,12 +5,14 @@
 ![Bir çiftlik, öğleden sonra](images/farm.jpg)
 
 <p align="center">
-  <img src="images/phone.jpg" width="270" alt="Telefonda gündüz">
+  <img src="images/phone.jpg" width="270" alt="Sipariş panosu">
   &nbsp;&nbsp;
   <img src="images/start-night.jpg" width="270" alt="İlk açılış, gece">
 </p>
 
 ## İndir
+
+🌱 **[Oyunun sitesi: serkantkn.github.io/PocketFarm](https://serkantkn.github.io/PocketFarm/)**
 
 En yeni sürüm [**Releases**](https://github.com/serkantkn/PocketFarm/releases) sayfasında.
 
@@ -23,7 +25,7 @@ iPhone ve iPad sürümü hazır ama App Store / TestFlight'a çıkana kadar bura
 
 ## Oyunda neler var
 
-- **18 seviye.** Buğday ve tavukla başlarsın; sonra inek ve ahır, fırın, yem değirmeni, mandıra, pastane, koyun ve ağıl, keçi, domuz ve ördek, ayçiçeği ve yağhane, arı kovanı, mutfak, dokuma tezgâhı, iskele ve balık, meyve ağaçları ve reçel kazanı gelir.
+- **22 seviye.** Buğday ve tavukla başlarsın; sonra inek ve ahır, fırın, yem değirmeni, mandıra, pastane, koyun ve ağıl, ayçiçeği ve yağhane, arı kovanı, mutfak, dokuma tezgâhı, iskele ve balık, meyve ağaçları ve reçel kazanı, en sonunda sera, keçi, ördek ve domuz gelir.
 - **Gerçek bir yer gibi.** Çiftliğin bir yolun kenarında, komşu tarlanın ve göl kıyısının yanında durur. Gün ışığı saatine göre değişir, yağmur yağar, ördekler gölde yüzer.
 - **İnsanlar.** Siparişler, yoldan geçen kamyon, kapına gelen köylüler, köy panosundaki hikâyeler, haftalık panayır ve mevsimlik şenlikler.
 - **Çiftlik düzeni senin.** Binaları istediğin yere kur, taşı, kaldır. Yollar önemli: yola bağlı olmayan bina yarı hızda çalışır. Arazi büyüdükçe çit de seninle büyür.
@@ -49,11 +51,11 @@ Bu depo sürümleri ve geri bildirimi taşır; oyunun kaynak kodu ayrı ve gizli
 
 **A small farm in your pocket.** Till the soil, plant seeds, look after your animals, bake bread and fill orders. Villagers come to your gate, crows eye your crops, and lamps light up in the evening. No rush and no ads; the farm keeps growing slowly while you are away.
 
-- **18 levels**, from wheat and chickens to cows, sheep, goats, pigs, ducks, a dairy, a bakery, a pastry shop, sheep, a beehive, a kitchen, a loom, a fishing dock, fruit trees and a jam kettle.
+- **22 levels**, from wheat and chickens to cows, sheep, a bakery, a dairy, a pastry shop, a beehive, a kitchen, a loom, a fishing dock, fruit trees, a jam kettle, and finally a greenhouse, goats, ducks and pigs.
 - **A living place:** a road, a neighbour's field, a lake, daylight that follows your clock, rain and ducks.
 - **People:** orders, a passing truck, villagers at your gate, stories on the village board, a weekly fair and seasonal festivals.
 - **Your layout:** build, move and remove freely; buildings off the road network run at half speed.
 - **Cloud save** with Play Games, Google or Apple, across Android, iPhone, iPad and Mac. Optional; everything works without an account.
 - **Six languages:** Turkish, English, French, German, Spanish, Italian.
 
-Download from [Releases](https://github.com/serkantkn/PocketFarm/releases): the APK for Android 9 and later, the DMG for Apple silicon Macs. No ads, analytics or tracking; if you sign in, your save, level, coins and device name are stored in Google Firebase under your account, and you can delete both from Settings. Please [report problems](https://github.com/serkantkn/PocketFarm/issues).
+Website: [serkantkn.github.io/PocketFarm](https://serkantkn.github.io/PocketFarm/). Download from [Releases](https://github.com/serkantkn/PocketFarm/releases): the APK for Android 9 and later, the DMG for Apple silicon Macs. No ads, analytics or tracking; if you sign in, your save, level, coins and device name are stored in Google Firebase under your account, and you can delete both from Settings. Please [report problems](https://github.com/serkantkn/PocketFarm/issues).

@@ -1,0 +1,210 @@
+<!doctype html>
+<html lang="tr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>PocketFarm — Cebinde küçük bir çiftlik</title>
+<meta name="description" content="PocketFarm: el yapımı görünümlü, sakin bir çiftlik oyunu. Ek, biç, hayvanlarına bak, fırında ekmek pişir. Android ve Mac için ücretsiz beta.">
+<meta name="theme-color" content="#7ec8ff">
+<meta property="og:type" content="website">
+<meta property="og:title" content="PocketFarm — Cebinde küçük bir çiftlik">
+<meta property="og:description" content="El yapımı görünümlü, sakin bir çiftlik oyunu. Android ve Mac için ücretsiz beta.">
+<meta property="og:image" content="https://serkantkn.github.io/PocketFarm/assets/og.jpg">
+<meta property="og:url" content="https://serkantkn.github.io/PocketFarm/">
+<meta name="twitter:card" content="summary_large_image">
+<link rel="icon" href="assets/icon-64.png" type="image/png">
+<link rel="apple-touch-icon" href="assets/icon-180.png">
+<link rel="preload" href="assets/fonts/baloo2.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="stylesheet" href="assets/site.css">
+</head>
+<body>
+
+<header class="hero" id="top" data-time="day">
+  <div class="sky" aria-hidden="true">
+    <div class="sky-layer" data-for="dawn"></div>
+    <div class="sky-layer" data-for="day"></div>
+    <div class="sky-layer" data-for="dusk"></div>
+    <div class="sky-layer" data-for="night"></div>
+    <div class="stars"></div>
+    <div class="sun"></div>
+    <div class="moon"></div>
+    <div class="clouds back"></div>
+  </div>
+
+  <nav class="nav">
+    <a class="brand" href="#top"><img src="assets/icon-64.png" alt="" width="36" height="36"><span>PocketFarm</span></a>
+    <div class="nav-links">
+      <a href="#ozellikler" data-i18n="nav.features">Neler var</a>
+      <a href="#seviyeler" data-i18n="nav.levels">Seviyeler</a>
+      <a href="#gorseller" data-i18n="nav.shots">Görseller</a>
+      <a href="#indir" class="nav-cta" data-i18n="nav.download">İndir</a>
+    </div>
+    <div class="nav-tools">
+      <button class="pill time-btn" id="timeBtn" type="button" aria-label="Günün saatini değiştir" data-i18n-aria="time.aria"><span class="time-icon"></span></button>
+      <button class="pill lang-btn" id="langBtn" type="button" aria-label="Switch to English">EN</button>
+    </div>
+  </nav>
+
+  <div class="hero-inner">
+    <div class="hero-text">
+      <p class="badge"><span class="dot"></span><span data-i18n="hero.badge">Beta 1 · Android ve Mac için ücretsiz</span></p>
+      <h1 class="title">Pocket<span>Farm</span></h1>
+      <p class="tagline" data-i18n="hero.tagline">Cebinde küçük bir çiftlik.</p>
+      <p class="lead" data-i18n="hero.lead">Toprağı sür, tohum ek, hayvanlarına bak, fırında ekmek pişir. Köylüler kapına gelir, akşam olunca fenerler yanar. Acele yok, reklam yok; çiftliğin sen yokken de yavaş yavaş büyür.</p>
+      <div class="cta">
+        <a class="btn leaf" href="#indir"><span class="btn-icon" data-sprite="ui_harvest"></span><span data-i18n="hero.cta">Ücretsiz indir</span></a>
+        <a class="btn paper" href="#ozellikler" data-i18n="hero.more">Neler var?</a>
+      </div>
+      <p class="hint" data-i18n="hero.hint">Adaya dokun: olgun buğdayı biç, hayvanları sev.</p>
+    </div>
+    <div class="island-wrap" id="islandWrap">
+      <div class="island-float">
+        <div class="island" id="island" role="img" aria-label="Gökte süzülen küçük bir çiftlik adası: fırın, kümes, tarla, gölet, yolda yürüyen köylüler" data-i18n-aria="hero.islandAria"></div>
+      </div>
+      <div class="island-shadow"></div>
+      <div class="coin-pop" id="coinPill" hidden><span data-sprite="ui_coin"></span><b id="coinCount">0</b></div>
+    </div>
+  </div>
+
+  <div class="clouds front" aria-hidden="true"></div>
+  <div class="birds" id="birds" aria-hidden="true"></div>
+  <svg class="cloud-bank" viewBox="0 0 1440 120" preserveAspectRatio="none" aria-hidden="true"><path d="M0,70 C60,40 120,40 170,62 C210,30 290,26 330,58 C380,34 450,36 490,64 C540,28 630,30 670,60 C720,36 800,34 840,62 C890,26 980,30 1020,60 C1070,34 1150,36 1190,62 C1240,30 1320,32 1360,58 C1395,44 1425,48 1440,56 L1440,120 L0,120 Z"/></svg>
+</header>
+
+<main>
+  <section class="stats" aria-label="Kısaca">
+    <ul>
+      <li class="reveal"><span data-sprite="ui_star"></span><b>22</b><span data-i18n="stats.levels">seviye</span></li>
+      <li class="reveal"><span data-sprite="item_bread"></span><b>50+</b><span data-i18n="stats.goods">ürün ve yemek</span></li>
+      <li class="reveal"><span data-sprite="ui_home"></span><b>6</b><span data-i18n="stats.langs">dil</span></li>
+      <li class="reveal"><span data-sprite="ui_heart"></span><b>0</b><span data-i18n="stats.ads">reklam</span></li>
+    </ul>
+  </section>
+
+  <section class="features" id="ozellikler">
+    <div class="section-head reveal">
+      <p class="eyebrow" data-i18n="feat.eyebrow">Neler var</p>
+      <h2 data-i18n="feat.title">Küçük bir çiftlik, kocaman bir dünya</h2>
+    </div>
+    <div class="cards">
+      <article class="card reveal">
+        <div class="vignette v-soil"><div class="grow" id="growDemo"></div><span class="drop" data-sprite="ui_water"></span></div>
+        <h3 data-i18n="f1.t">Ek, sula, biç</h3>
+        <p data-i18n="f1.d">Tarlanı sür, tohumu ek. Yağmur susuz ekinleri kendisi sular, fıskiye kurarsan hiç kurumazlar. Biçtiğin toprak yorulur; yeniden sürmek bedava.</p>
+      </article>
+      <article class="card reveal">
+        <div class="vignette v-grass"><span class="actor" data-anim="animal_chicken_walk_se" data-scale="1.5" style="--x:26%;--y:66%"></span><span class="actor" data-anim="animal_cow_eat_sw" data-scale="1.3" style="--x:64%;--y:78%"></span></div>
+        <h3 data-i18n="f2.t">Hayvanların</h3>
+        <p data-i18n="f2.d">Tavuk, inek, koyun, keçi, ördek, domuz ve arılar. Besledikçe ürün verirler; evlerini temiz tutarsan daha mutlu olurlar.</p>
+      </article>
+      <article class="card reveal">
+        <div class="vignette v-wood"><span class="still" data-sprite="object_bakery" style="--x:40%;--y:92%;--s:1.05"></span><div class="carousel" id="goods"></div></div>
+        <h3 data-i18n="f3.t">Fırından sofraya</h3>
+        <p data-i18n="f3.d">Fırın, mandıra, pastane, mutfak, reçel kazanı… Ham ürünü işle, siparişleri yetiştir. Menemen de var.</p>
+      </article>
+      <article class="card reveal">
+        <div class="vignette v-road"><span class="actor" data-anim="villager_granny_idle_sw" data-scale="1.5" style="--x:28%;--y:82%"></span><span class="still" data-sprite="world_truck" style="--x:70%;--y:86%;--s:1.05"></span><span class="bubble" data-sprite="ui_orders"></span></div>
+        <h3 data-i18n="f4.t">Köy hayatı</h3>
+        <p data-i18n="f4.d">Kapına köylüler gelir, yoldan geçen kamyon yük ister, köy panosunda küçük hikâyeler birikir. Haftada bir panayır, her mevsim bir şenlik.</p>
+      </article>
+      <article class="card reveal">
+        <div class="vignette v-water"><span class="actor" data-anim="bird_duck_brown_swim_sw" data-scale="2.2" style="--x:36%;--y:58%"></span><span class="actor" data-anim="bird_duckling_swim_sw" data-scale="2.2" style="--x:58%;--y:72%"></span><span class="actor" data-anim="bird_duckling_swim_sw" data-scale="2.2" style="--x:74%;--y:84%"></span></div>
+        <h3 data-i18n="f5.t">Yaşayan dünya</h3>
+        <p data-i18n="f5.d">Gün ışığı senin saatini izler: akşam fenerler yanar, gece ateş böcekleri çıkar. Yağmur yağar, fırtına çıkar, kargalar tarlana dadanır.</p>
+      </article>
+      <article class="card reveal">
+        <div class="vignette v-gift"><span class="still pulse" data-sprite="ui_gift" style="--x:50%;--y:78%;--s:1.5"></span><span class="spark" style="--x:28%;--y:30%"></span><span class="spark" style="--x:74%;--y:26%"></span><span class="spark" style="--x:62%;--y:58%"></span></div>
+        <h3 data-i18n="f6.t">Sen yokken de</h3>
+        <p data-i18n="f6.d">Oyun kapalıyken zaman işlemeye devam eder. Ürünler hazır olunca haber verir; uzun bir aradan sonra seni neler olduğunun özeti ve küçük bir hediye karşılar.</p>
+      </article>
+    </div>
+  </section>
+
+  <section class="levels" id="seviyeler">
+    <div class="section-head reveal">
+      <p class="eyebrow" data-i18n="lv.eyebrow">Seviyeden seviyeye</p>
+      <h2 data-i18n="lv.title">Bir avuç buğdaydan reçel kazanına</h2>
+      <p class="sub" data-i18n="lv.sub">Her seviye yeni bir şey açar. Çiftliğin de seninle büyür: arazi 10×10'dan 22×22'ye genişler.</p>
+    </div>
+    <ol class="path" id="levelPath"></ol>
+  </section>
+
+  <section class="gallery" id="gorseller">
+    <div class="section-head reveal light">
+      <p class="eyebrow" data-i18n="gal.eyebrow">Görseller</p>
+      <h2 data-i18n="gal.title">Her köşesi elle yapılmış gibi</h2>
+      <p class="sub" data-i18n="gal.sub">Binalar, hayvanlar, köylüler ve simgeler Blender'da modellenip aynı ışıkla render edildi.</p>
+    </div>
+    <div class="shots">
+      <figure class="phone reveal tilt-l"><img src="assets/shots/orders.webp" width="540" height="1200" loading="lazy" alt="Sipariş panosu: yumurta, buğday ve gümüş kalite yumurta siparişleri" data-i18n-alt="gal.a1"></figure>
+      <figure class="wide reveal"><img src="assets/shots/farm.webp" width="1080" height="900" loading="lazy" alt="Çitle çevrili çiftlik: tarlalar, fırın, ahır, sera, yol kenarında tezgâh ve kamyon" data-i18n-alt="gal.a2"></figure>
+      <figure class="phone reveal tilt-r"><img src="assets/shots/start-night.webp" width="540" height="1200" loading="lazy" alt="İlk açılış, gece: rehber kartı ve yanan fenerler" data-i18n-alt="gal.a3"></figure>
+    </div>
+  </section>
+
+  <section class="download" id="indir">
+    <div class="board reveal">
+      <div class="board-ropes" aria-hidden="true"><i></i><i></i></div>
+      <div class="board-face">
+        <p class="eyebrow" data-i18n="dl.eyebrow">İndir</p>
+        <h2 data-i18n="dl.title">Çiftliğin seni bekliyor</h2>
+        <p class="version"><span data-i18n="dl.version">Son sürüm:</span> <b id="relName">PocketFarm 1.0.0 beta 1</b></p>
+        <div class="platforms">
+          <div class="platform">
+            <svg viewBox="0 0 48 48" aria-hidden="true"><rect x="13" y="4" width="22" height="40" rx="5"/><rect x="17" y="9" width="14" height="27" rx="1.5" class="screen"/><circle cx="24" cy="40" r="1.6" class="screen"/></svg>
+            <h3>Android</h3>
+            <p data-i18n="dl.android">Telefon ve tablet · Android 9 ve üstü</p>
+            <a class="btn leaf" id="apkLink" href="https://github.com/serkantkn/PocketFarm/releases/download/v1.0.0_beta-1/PocketFarm-1.0.0_beta-1.apk"><span data-i18n="dl.apk">APK indir</span> <small id="apkSize">34 MB</small></a>
+          </div>
+          <div class="platform">
+            <svg viewBox="0 0 48 48" aria-hidden="true"><rect x="7" y="9" width="34" height="23" rx="3"/><rect x="10.5" y="12.5" width="27" height="16" rx="1" class="screen"/><path d="M3 35h42l-3 4H6z"/></svg>
+            <h3>Mac</h3>
+            <p data-i18n="dl.mac">Apple çipli Mac (M1 ve sonrası)</p>
+            <a class="btn leaf" id="dmgLink" href="https://github.com/serkantkn/PocketFarm/releases/download/v1.0.0_beta-1/PocketFarm-1.0.0_beta-1-mac.dmg"><span data-i18n="dl.dmg">DMG indir</span> <small id="dmgSize">109 MB</small></a>
+          </div>
+          <div class="platform soon">
+            <svg viewBox="0 0 48 48" aria-hidden="true"><rect x="8" y="5" width="22" height="38" rx="5"/><rect x="11.5" y="10" width="15" height="28" rx="1.5" class="screen"/><rect x="26" y="15" width="16" height="25" rx="3"/><rect x="28.5" y="18" width="11" height="19" rx="1" class="screen"/></svg>
+            <h3>iPhone ve iPad</h3>
+            <p data-i18n="dl.ios">Hazır; App Store'a çıkınca burada</p>
+            <span class="btn wood disabled" data-i18n="dl.soon">Yakında</span>
+          </div>
+        </div>
+        <div class="sync"><span data-sprite="ui_home"></span><p data-i18n="dl.sync">İstersen Play Oyunlar, Google ya da Apple hesabınla giriş yap: çiftliğin telefon, tablet ve Mac arasında seninle gelir. Giriş yapmadan da her şey oynanır.</p></div>
+        <details class="howto">
+          <summary data-i18n="dl.howto">Kurulumda takılırsan</summary>
+          <div class="howto-body">
+            <p><b>Android:</b> <span data-i18n="dl.howA">APK'yı indirip aç. Telefon bilinmeyen kaynaklardan yüklemeye izin vermeni isteyebilir; izin verip kurulumu tamamla.</span></p>
+            <p><b>Mac:</b> <span data-i18n="dl.howM">DMG'yi aç, PocketFarm'ı Uygulamalar klasörüne sürükle. Uygulama henüz Apple onayından geçmediği için ilk açılışta macOS onu durdurur: Sistem Ayarları → Gizlilik ve Güvenlik'te en alttaki “Yine de Aç” düğmesine bas.</span></p>
+            <p data-i18n="dl.howB">Bu bir beta: hatalarla karşılaşabilirsin. Bir sorun görürsen GitHub'da bir issue açman çok yardımcı olur.</p>
+          </div>
+        </details>
+        <p class="all"><a href="https://github.com/serkantkn/PocketFarm/releases" data-i18n="dl.all">Bütün sürümler ve sürüm notları →</a></p>
+      </div>
+    </div>
+  </section>
+
+  <section class="privacy" id="gizlilik">
+    <div class="paper-note reveal">
+      <h2 data-i18n="pv.title">Gizlilik</h2>
+      <p data-i18n="pv.p1">Reklam, analiz ve izleme yok. Giriş yapmazsan çiftliğin yalnızca cihazında durur.</p>
+      <p data-i18n="pv.p2">Giriş yaparsan çiftlik kaydın, seviyen, altının ve cihazının adı hesabına bağlı olarak Google Firebase'de saklanır. Hesabını ve buluttaki kaydını istediğin an oyunun Ayarlar bölümünden silebilirsin.</p>
+      <p data-i18n="pv.p3">Oyun, saat ileri alınarak kazanç elde edilmesin diye açılışta internetten saati sorar. Bu site de çerez kullanmaz; yalnızca son sürümü öğrenmek için GitHub'a sorar.</p>
+    </div>
+  </section>
+</main>
+
+<footer class="footer">
+  <div class="footer-inner">
+    <a class="brand" href="#top"><img src="assets/icon-64.png" alt="" width="32" height="32"><span>PocketFarm</span></a>
+    <nav>
+      <a href="https://github.com/serkantkn/PocketFarm/releases" data-i18n="ft.releases">Sürümler</a>
+      <a href="https://github.com/serkantkn/PocketFarm/issues" data-i18n="ft.issues">Hata bildir</a>
+      <a href="#gizlilik" data-i18n="ft.privacy">Gizlilik</a>
+    </nav>
+    <p class="small" data-i18n="ft.note">Yazı tipi: Baloo 2 (SIL Open Font License). Bütün oyun görselleri oyunun kendi render'larıdır.</p>
+  </div>
+</footer>
+
+<script src="assets/site.js" defer></script>
+</body>
+</html>
