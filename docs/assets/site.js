@@ -12,7 +12,7 @@
   const EN = {
     "nav.features": "Features", "nav.levels": "Levels", "nav.shots": "Screenshots", "nav.download": "Download",
     "time.aria": "Change the time of day",
-    "hero.badge": "Beta 1 · free for Android and Mac",
+    "hero.badge": "Beta 2 · free for Android and Mac",
     "hero.tagline": "A little farm in your pocket.",
     "hero.lead": "Till the soil, plant seeds, look after your animals, bake bread. Villagers stop at your gate and the lamps light up at dusk. No rush and no ads; your farm keeps growing slowly while you are away.",
     "hero.cta": "Download free", "hero.more": "What's inside?",
