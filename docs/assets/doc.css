@@ -1,0 +1,28 @@
+/* Gizlilik ve hesap silme gibi düz metin sayfaları. */
+body.doc { background: var(--paper); }
+.doc-head {
+  display: flex; align-items: center; justify-content: space-between; gap: 16px;
+  padding: 14px 20px; background: url("textures/wood.webp") center / 360px, var(--wood-dark);
+  color: var(--paper); border-bottom: 5px solid var(--wood-deep);
+}
+.doc-head .brand, .doc .footer .brand { display: flex; align-items: center; gap: 10px; color: var(--paper); text-decoration: none; font-weight: 800; font-size: 1.25rem; }
+.doc-head nav { display: flex; gap: 16px; }
+.doc-head nav a { color: var(--gold-light); font-weight: 700; text-decoration: none; }
+.doc-main { max-width: 760px; margin: 0 auto; padding: 28px 16px 56px; }
+.doc-main article {
+  background: var(--cream); border: 3px solid var(--paper-2); border-radius: var(--radius);
+  box-shadow: var(--shadow); padding: 26px 24px; margin-bottom: 28px;
+}
+.doc-main h1 { font-size: 2rem; line-height: 1.15; margin: 0 0 6px; color: var(--wood-deep); }
+.doc-main h2 { font-size: 1.3rem; margin: 22px 0 6px; color: var(--wood-dark); }
+.doc-main p, .doc-main li { color: var(--ink-soft); font-size: 1.05rem; }
+.doc-main p { margin: 8px 0; }
+.doc-main ul, .doc-main ol { padding-left: 22px; margin: 8px 0; }
+.doc-main li + li { margin-top: 4px; }
+.doc-main b { color: var(--ink); }
+.doc-main a { color: var(--leaf-dark); font-weight: 700; overflow-wrap: anywhere; }
+.doc-main .meta { font-size: .95rem; color: var(--wood); margin-top: 0; }
+@media (max-width: 520px) {
+  .doc-main article { padding: 20px 16px; }
+  .doc-main h1 { font-size: 1.6rem; }
+}
