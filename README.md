@@ -25,8 +25,8 @@ iPhone ve iPad sürümü hazır ama App Store / TestFlight'a çıkana kadar bura
 
 ## Oyunda neler var
 
-- **22 seviye.** Buğday ve tavukla başlarsın; sonra inek ve ahır, fırın, yem değirmeni, mandıra, pastane, koyun ve ağıl, ayçiçeği ve yağhane, arı kovanı, mutfak, dokuma tezgâhı, iskele ve balık, meyve ağaçları ve reçel kazanı, en sonunda sera, keçi, ördek ve domuz gelir.
-- **Gerçek bir yer gibi.** Çiftliğin bir yolun kenarında, komşu tarlanın ve göl kıyısının yanında durur. Gün ışığı saatine göre değişir, yağmur yağar, ördekler gölde yüzer.
+- **28 seviye.** Buğday ve tavukla başlarsın; sonra inek ve ahır, fırın, yem değirmeni, mandıra, pastane, koyun ve ağıl, ayçiçeği ve yağhane, arı kovanı, mutfak, dokuma tezgâhı, iskele ve balık, meyve ağaçları ve reçel kazanı, sera, keçi, ördek ve domuz, bağ ve zeytinlik, en sonunda hindi ve angora tavşanı gelir.
+- **Gerçek bir yer gibi.** Çiftliğin bir yolun kenarında, komşu tarlanın yanında durur; arsanı bir gölet ikiye böler, üstünden bir köprü geçer. Arazini çevredeki parselleri alarak büyütürsün. Gün ışığı saatine göre değişir, yağmur yağar, ördekler gölde yüzer.
 - **İnsanlar.** Siparişler, yoldan geçen kamyon, kapına gelen köylüler, köy panosundaki hikâyeler, haftalık panayır ve mevsimlik şenlikler.
 - **Çiftlik düzeni senin.** Binaları istediğin yere kur, taşı, kaldır. Yollar önemli: yola bağlı olmayan bina yarı hızda çalışır. Arazi büyüdükçe çit de seninle büyür.
 - **Sen yokken.** Ürünler hazır olunca bildirim gelir. Uzun süre uğramazsan dönüşte neler olduğunun kısa bir özeti ve küçük bir hediye seni bekler.
@@ -51,8 +51,8 @@ Bu depo sürümleri ve geri bildirimi taşır; oyunun kaynak kodu ayrı ve gizli
 
 **A small farm in your pocket.** Till the soil, plant seeds, look after your animals, bake bread and fill orders. Villagers come to your gate, crows eye your crops, and lamps light up in the evening. No rush and no ads; the farm keeps growing slowly while you are away.
 
-- **22 levels**, from wheat and chickens to cows, sheep, a bakery, a dairy, a pastry shop, a beehive, a kitchen, a loom, a fishing dock, fruit trees, a jam kettle, and finally a greenhouse, goats, ducks and pigs.
-- **A living place:** a road, a neighbour's field, a lake, daylight that follows your clock, rain and ducks.
+- **28 levels**, from wheat and chickens to cows, sheep, a bakery, a dairy, a pastry shop, a beehive, a kitchen, a loom, a fishing dock, fruit trees, a jam kettle, a greenhouse, goats, ducks and pigs, a vineyard and olive grove, and finally turkeys and angora rabbits.
+- **A living place:** a road, a neighbour's field, a pond with a bridge across your land, plots to buy around it, daylight that follows your clock, rain and ducks.
 - **People:** orders, a passing truck, villagers at your gate, stories on the village board, a weekly fair and seasonal festivals.
 - **Your layout:** build, move and remove freely; buildings off the road network run at half speed.
 - **Cloud save** with Play Games, Google or Apple, across Android, iPhone, iPad and Mac. Optional; everything works without an account.

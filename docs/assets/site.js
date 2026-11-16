@@ -12,7 +12,7 @@
   const EN = {
     "nav.features": "Features", "nav.levels": "Levels", "nav.shots": "Screenshots", "nav.download": "Download",
     "time.aria": "Change the time of day",
-    "hero.badge": "Beta 2 · free for Android and Mac",
+    "hero.badge": "Beta 3 · free for Android and Mac",
     "hero.tagline": "A little farm in your pocket.",
     "hero.lead": "Till the soil, plant seeds, look after your animals, bake bread. Villagers stop at your gate and the lamps light up at dusk. No rush and no ads; your farm keeps growing slowly while you are away.",
     "hero.cta": "Download free", "hero.more": "What's inside?",
@@ -27,7 +27,7 @@
     "f5.t": "A living world", "f5.d": "Daylight follows your own clock: lamps light up in the evening, fireflies come out at night. It rains, storms roll in, and crows eye your fields.",
     "f6.t": "Even while you're away", "f6.d": "Time keeps passing while the game is closed. You get a note when goods are ready, and after a long break a summary and a small gift welcome you back.",
     "lv.eyebrow": "Level by level", "lv.title": "From a handful of wheat to a jam kettle",
-    "lv.sub": "Every level opens something new. Your farm grows with you: the land expands from 10×10 to 22×22.",
+    "lv.sub": "Every level opens something new. Your farm grows with you: buy the plots around the pond to expand your land.",
     "gal.eyebrow": "Screenshots", "gal.title": "Every corner looks hand-made",
     "gal.sub": "Buildings, animals, villagers and icons are modelled in Blender and rendered under the same light.",
     "gal.a1": "The order board: eggs, wheat and a silver-quality egg order",
@@ -69,6 +69,8 @@
     ["18", ["item_cherry_jam"], "Kiraz ve reçel kazanı", "Cherries and a jam kettle"],
     ["19", ["item_strawberry_jam"], "Sera", "Greenhouse"],
     ["20–22", ["item_goat_cheese", "item_truffle_oil"], "Keçi, ördek ve domuz", "Goats, ducks and pigs"],
+    ["23–26", ["item_molasses", "item_olive_oil"], "Bağ ve zeytinlik", "Vineyard and olive grove"],
+    ["27–28", ["item_turkey_egg", "item_angora_beret"], "Hindi ve angora tavşanı", "Turkeys and angora rabbits"],
   ];
 
   const TR = {};
