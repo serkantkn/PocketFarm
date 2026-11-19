@@ -12,7 +12,7 @@
   const EN = {
     "nav.features": "Features", "nav.levels": "Levels", "nav.shots": "Screenshots", "nav.download": "Download",
     "time.aria": "Change the time of day",
-    "hero.badge": "Beta 3 · free for Android and Mac",
+    "hero.badge": "Out now on the App Store · Beta 3 for Android and Mac",
     "hero.tagline": "A little farm in your pocket.",
     "hero.lead": "Till the soil, plant seeds, look after your animals, bake bread. Villagers stop at your gate and the lamps light up at dusk. No rush and no ads; your farm keeps growing slowly while you are away.",
     "hero.cta": "Download free", "hero.more": "What's inside?",
@@ -36,7 +36,7 @@
     "dl.eyebrow": "Download", "dl.title": "Your farm is waiting", "dl.version": "Latest:",
     "dl.android": "Phone and tablet · Android 9 or later", "dl.apk": "Download APK",
     "dl.mac": "Apple silicon Mac (M1 or later)", "dl.dmg": "Download DMG",
-    "dl.ios": "Ready; coming here once it is on the App Store", "dl.soon": "Coming soon",
+    "dl.ios": "Free on the App Store", "dl.iosName": "iPhone and iPad", "dl.appstore": "On the App Store",
     "dl.sync": "Sign in with Play Games, Google or Apple if you like, and your farm follows you between phone, tablet and Mac. Everything works without an account too.",
     "dl.howto": "If installing gets stuck",
     "dl.howA": "Download and open the APK. Your phone may ask you to allow installs from unknown sources; allow it and finish the install.",
